@@ -12,7 +12,7 @@ $(document).ready(function(){
 		$("#fake_iphone > embed").remove();
 		var str= "<embed  id='fake_screen'' src="+address+" height='"+h+"' width='"+w+"'/>";
 		$("#fake_iphone").html(str);
-		console.log($("#qrcode > img").attr("src",qrcodeAddress+gameName+".png"));
+		$("#qrcode > img").attr("src",qrcodeAddress+gameName+".png");
 	});
 
 
